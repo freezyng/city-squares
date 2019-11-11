@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Conv_Lato-Regular',Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+
+
+@import './font-awesome-4.7.0/font-awesome.scss';
+@import './fonts.scss';
+@import './header.scss';
+@import './content.scss';
+@import './footer.scss';
+
+

@@ -1,0 +1,38 @@
+.header {
+    border-bottom: 1px solid #ECECF0;
+    margin-bottom: 100px;
+}
+
+.header-wrap {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__text-info {
+    font-size: 15px;
+    line-height: 18px;
+    color: #72757D;
+}
+
+
+@media (max-width: 620px) {
+    .header {
+    margin-bottom: 30px;
+
+        & .header-wrap {
+            display: block;
+
+            & .logo {
+                display: block;
+                margin: 0 auto;
+            }
+
+            & .header__text-info {
+                margin-top: 10px;
+                text-align: center;
+            }
+        }
+    }
+}
