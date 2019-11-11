@@ -25,7 +25,7 @@
     "webpack-dev-server": "^3.8.0"
   },
   "scripts": {
-    "prebuild": "del-cli dist -f technical-works.html -f",
+    "prebuild": "del-cli dist -f index.html -f",
     "dev": "webpack-dev-server --mode development --host 192.168.1.10 --port 8080 --open",
     "build": "webpack --mode production"
   },

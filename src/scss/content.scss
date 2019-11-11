@@ -1,5 +1,6 @@
 .content {
     flex: 1 0 auto;
+    border-bottom: 1px solid #ECECF0;
 
     & .container {
     }
@@ -93,4 +94,8 @@
         }
     }
 }
-
+@media (max-width: 620px) {
+    .content {
+        padding-bottom: 30px;
+    }
+}
